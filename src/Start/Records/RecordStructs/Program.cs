@@ -16,4 +16,4 @@ Console.WriteLine($"r2 == r3: {r1 == r3}");
 Console.WriteLine($"r1 != r3: {r2 != r3}");
 
 // Simple Declaration and custom output formatting
-readonly record struct Rectangle (int Top, int Left, int Right, int Bottom);
+public record Rectangle(int Top, int Left, int Right, int Bottom);
